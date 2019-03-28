@@ -1,0 +1,17 @@
+<header>  
+  <h1>
+    <a href="/" class="main-logo">{{ pageTitle or metadata.title }}</a>
+  </h1>
+  {% if subtitle or metadata.subtitle %}
+    <p class="subtitle">{{ (subtitle or metadata.subtitle) | safe }}</p>
+  {% endif %}
+  <nav class="main-nav">
+    <ul>
+      {% for nav in collections.nav | sort(attribute="date") %}
+        <li{% if nav.url == page.url %} class="active"{% endif %}>
+          <a href="{{ nav.url | url }}">{{ nav.data.navTitle }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

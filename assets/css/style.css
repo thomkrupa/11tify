@@ -1,0 +1,185 @@
+:root {
+  --bg-color: 242, 240, 247;
+  --text-color: 46, 2, 118;
+  --accent-color: 249, 64, 98;
+  --accent-reverse-color: 255, 255, 255;
+}
+
+html,
+.root {
+  font-size: 16px;
+  line-height: 24px;
+  background: rgb(var(--bg-color));
+  color: rgb(var(--text-color));
+}
+
+body,
+.article {
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: auto;
+}
+h1,
+.h1 {
+  font-family: Inconsolata, serif;
+  font-size: 4.1875em;
+  line-height: 1.07462687em;
+  margin-top: 0.35820896em;
+  margin-bottom: 0.71641792em;
+}
+h2,
+.h2 {
+  font-family: Inconsolata, serif;
+  font-family: Inconsolata, serif;
+  font-size: 2.625em;
+  line-height: 1.14285714em;
+  margin-top: 0.57142857em;
+  margin-bottom: 0.57142857em;
+}
+h3,
+.h3 {
+  font-family: Inconsolata, serif;
+  font-size: 1.625em;
+  line-height: 1.84615385em;
+  margin-top: 0.92307692em;
+  margin-bottom: 0em;
+}
+h4,
+.h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+h5,
+.h5 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+p,
+ul,
+ol,
+pre,
+table,
+blockquote {
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+/* Let's make sure all's aligned */
+hr,
+.hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a,
+b,
+i,
+strong,
+em,
+small,
+code {
+  line-height: 0;
+}
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+
+.page {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.main-logo {
+  color: rgb(var(--accent-color));
+  text-decoration: none;
+  border-bottom: 6px dotted rgba(var(--accent-color), 0.4);
+  padding-bottom: 0.5rem;
+}
+
+.main-nav {
+  margin-bottom: 3rem;
+}
+
+.main-nav ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.main-nav li + li {
+  margin-left: 1rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  background: rgba(var(--text-color), 0.1);
+  color: rgb(var(--text-color));
+  padding: 1.125rem 1rem;
+  display: inline-block;
+}
+
+.main-nav .active a {
+  background: rgb(var(--accent-color));
+  color: rgb(var(--accent-reverse-color));
+}
+
+.post h2 {
+  /* font-style: italic; */
+  font-weight: 700;
+}
+
+.post + .post {
+  border-top: 2px dotted rgb(var(--accent-color));
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+
+.post h2 a {
+  color: rgb(var(--text-color));
+  text-decoration: none;
+}
+
+.post-summary {
+  font-size: 1.5rem;
+  opacity: 0.85;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.subtitle {
+  font-style: italic;
+  color: rgba(var(--text-color), 0.6);
+}
+
+.site-footer {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  color: rgba(var(--text-color), 0.6);
+}
+
+article img {
+  max-width: 100%;
+}

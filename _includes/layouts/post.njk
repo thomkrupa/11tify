@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  {% include "components/head.njk" %}
+  <body>
+    <div class="page">
+      {% include "components/header.njk" %}
+      <main>
+        <article>
+          <h1>{{ title }}</h1>
+          <p><small><time>{{ date | dateDisplay("LLL d, y") }}</time></small></p>
+          <p class="post-summary">{{ summary | safe }}</p>
+          {{ content | safe }}
+        </article>
+      </main>
+      {% include "components/footer.njk" %}
+    </div>
+  </body>
+</html>

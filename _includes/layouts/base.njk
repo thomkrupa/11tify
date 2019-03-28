@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  {% include "components/head.njk" %}
+  <body>
+    <div class="page">
+      {% include "components/header.njk" %}
+      <main>
+        {{ content | safe }}
+      </main>
+      {% include "components/footer.njk" %}
+    </div>
+  </body>
+</html>
