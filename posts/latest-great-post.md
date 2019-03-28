@@ -3,7 +3,7 @@ title: Latest Great Post!
 date: 2019-03-26T20:45:53.792Z
 summary: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum
-  orci lacus, nec iaculis nibh facilisis at.
+  orci lacus, nec iaculis nibh facilisis at. Hello Wroclaw!
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum orci lacus, nec iaculis nibh facilisis at. Morbi pharetra lorem ut risus cursus viverra. Phasellus eu luctus enim. Phasellus at dignissim nulla, quis eleifend lorem. Nam sed posuere ante. Duis laoreet lectus at ultrices tempus. Curabitur sagittis at ex id aliquam. Fusce dictum ut eros ac elementum. Integer egestas erat felis, eu fringilla neque maximus eget. Nulla sollicitudin molestie felis, in ultrices ligula. Pellentesque ornare, ipsum sit amet ullamcorper mollis, dui sem iaculis dui, ultrices molestie sapien massa vestibulum purus. Pellentesque nisi dolor, ultricies at nulla eu, blandit rhoncus orci. Suspendisse arcu tellus, volutpat ac enim nec, aliquet laoreet dui. Duis congue vitae nisi eget pellentesque. Ut tincidunt, urna a fringilla feugiat, sapien risus pulvinar urna, et egestas nulla diam sed dolor.
 
