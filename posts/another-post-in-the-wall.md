@@ -1,0 +1,8 @@
+---
+title: Another post in the wall.
+date: 2020-03-02T17:10:40.731Z
+summary: Hello Bejamas Blog!
+---
+This is content field. Let's try to add an image.
+
+![](/images/uploads/wip.jpg)
