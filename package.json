@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^0.7.1",
-    "luxon": "^1.11.4"
+    "luxon": "^2.5.2"
   }
 }
